@@ -1,3 +1,21 @@
+commit 34a53810a4ab7e2887b9ba763d87c022d65f51bd
+Author: miguel del valle <delvalle@cs.utexas.edu>
+Date:   Wed Sep 11 11:07:20 2013 -0500
+
+    Created the 1000 lines of acceptance tests
+
+commit 78efaf3071203de27577d1a0ec74f10ae1026bc6
+Author: miguel del valle <delvalle@cs.utexas.edu>
+Date:   Tue Sep 10 22:15:24 2013 -0500
+
+    This includes the first accepted Sphere solution
+
+commit 2b9778be3025986cc795e2b55841383b709288af
+Author: miguel del valle <delvalle@cs.utexas.edu>
+Date:   Tue Sep 10 20:29:00 2013 -0500
+
+    Modified SphereCollatz.c++ for first sphere testing
+
 commit 1ce0b73742686e2534ee9be069c2e300a6934fd6
 Author: miguel del valle <delvalle@cs.utexas.edu>
 Date:   Mon Sep 9 15:39:02 2013 -0500

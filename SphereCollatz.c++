@@ -105,9 +105,23 @@ bool collatz_read (std::istream& r, int& i, int& j) {
 
 int collatz_eval (int i, int j) {
     // <your code>
-    int v = 1;
-    assert(v > 0);
-    return v;}
+    int max, n, temp;
+
+    if (i > j) {
+        temp = i;
+        i = j;
+        j = temp;}
+        
+    for (i; i <= j; i++) {
+        n = i;
+        while (n > 1) {
+            if (!((n % 2) == 0))
+                n = (3 * n) + 1;
+            else
+                n = n / 2;}}
+
+    assert(n > 0);
+    return n;}
 
 // -------------
 // collatz_print

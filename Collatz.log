@@ -1,0 +1,17 @@
+commit 1ce0b73742686e2534ee9be069c2e300a6934fd6
+Author: miguel del valle <delvalle@cs.utexas.edu>
+Date:   Mon Sep 9 15:39:02 2013 -0500
+
+    Skeleton code for sphere
+
+commit d9da2634c3b93e671695b71d7e685c80d5c0194a
+Author: miguel del valle <delvalle@cs.utexas.edu>
+Date:   Mon Sep 9 15:12:56 2013 -0500
+
+    Initial commit for collatz
+
+commit a06ab100be7adf5c1b8db9b2028af8b779de1ab7
+Author: Miguel Del Valle <Mdelvalle@live.com>
+Date:   Sun Sep 8 22:24:53 2013 -0700
+
+    Initial commit

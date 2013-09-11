@@ -55,8 +55,9 @@ int collatz_eval (int i, int j) {
             while (n > 1) {
                 if ((n % 2) == 0)
                     n = n / 2;
-                else
-                    n = (3 * n) + 1;
+                else {
+                    n = n + (n >> 1) + 1;
+                    c++;}
                 c++;}
 
             cache[i] = c;
@@ -64,7 +65,8 @@ int collatz_eval (int i, int j) {
                 max = c;}
         else {
             if (cache[i] > max)
-                max = cache[i];}}
+                max = cache[i];
+            hit = false;}}
 
     assert(max > 0);
     return max;}

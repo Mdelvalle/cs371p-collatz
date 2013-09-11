@@ -107,6 +107,8 @@ int collatz_eval (int i, int j) {
     // <your code>
     int max = 0;
     int c, n, temp;
+    int cache[1000000] = {0};
+    bool hit;
 
     if (i > j) {
         temp = i;
@@ -116,14 +118,30 @@ int collatz_eval (int i, int j) {
     for (i; i <= j; i++) {
         n = i;
         c = 1;
-        while (n > 1) {
-            if ((n % 2) == 0)
-                n = n / 2;
-            else
-                n = (3 * n) + 1;
-            c++;}
-        if (c > max)
-            max = c;}
+
+        if (cache[i] == 0)
+            hit = false;
+        else
+            hit = true;
+
+        if (!hit) {
+            while (n > 1) {
+                if ((n % 2) == 0)
+                    n = n / 2;
+                else {
+                    // n = (3 * n) + 1;
+                    n = n + (n >> 1) + 1;
+                    c++;}
+                c++;}
+
+            cache[i] = c;
+            // hit = false;
+            if (c > max)
+                max = c;}
+        else {
+            if (cache[i] > max)
+                max = cache[i];
+            hit = false;}}
 
     assert(max > 0);
     return max;}

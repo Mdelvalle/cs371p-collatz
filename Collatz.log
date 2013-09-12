@@ -1,3 +1,21 @@
+commit bfe4ea1ce70122bedcc1b669ff00d3b9b411d1cd
+Author: miguel del valle <delvalle@cs.utexas.edu>
+Date:   Wed Sep 11 18:01:04 2013 -0500
+
+    Added tests to TestCollatz.c++
+
+commit 247e598589498c0f8bf4f2d727bca5cfdbba74ef
+Author: miguel del valle <delvalle@cs.utexas.edu>
+Date:   Wed Sep 11 17:11:34 2013 -0500
+
+    Sphere accepted solutions to both the required and the extra credit, with cache
+
+commit 755941f49b4bc4cbf2cc602088db08f83fa88b45
+Author: miguel del valle <delvalle@cs.utexas.edu>
+Date:   Wed Sep 11 15:26:01 2013 -0500
+
+    Testing cache
+
 commit 34a53810a4ab7e2887b9ba763d87c022d65f51bd
 Author: miguel del valle <delvalle@cs.utexas.edu>
 Date:   Wed Sep 11 11:07:20 2013 -0500

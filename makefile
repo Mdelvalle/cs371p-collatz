@@ -46,10 +46,10 @@ RunCollatz: Collatz.h Collatz.c++ RunCollatz.c++
 	g++ -pedantic -std=c++0x -Wall Collatz.c++ RunCollatz.c++ -o RunCollatz
 
 RunCollatz.out: RunCollatz RunCollatz.in
-	valgrind RunCollatz < RunCollatz.in > RunCollatz.out
+	valgrind ./RunCollatz < RunCollatz.in > RunCollatz.out
 
 TestCollatz: Collatz.h Collatz.c++ TestCollatz.c++
 	g++ -pedantic -std=c++0x -Wall Collatz.c++ TestCollatz.c++ -o TestCollatz -lgtest -lpthread -lgtest_main
 
 TestCollatz.out: TestCollatz
-	valgrind TestCollatz > TestCollatz.out
+	valgrind ./TestCollatz > TestCollatz.out

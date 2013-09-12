@@ -102,13 +102,16 @@ bool collatz_read (std::istream& r, int& i, int& j) {
 // ------------
 // collatz_eval
 // ------------
-
+int cache[1000000] = {0};
 int collatz_eval (int i, int j) {
     // <your code>
     int max = 0;
     int c, n, temp;
-    int cache[1000000] = {0};
+    //int cache[1000000] = {0};
     bool hit;
+
+    assert(i > 0);
+    assert(j > 0);
 
     if (i > j) {
         temp = i;
@@ -129,13 +132,11 @@ int collatz_eval (int i, int j) {
                 if ((n % 2) == 0)
                     n = n / 2;
                 else {
-                    // n = (3 * n) + 1;
                     n = n + (n >> 1) + 1;
                     c++;}
                 c++;}
 
             cache[i] = c;
-            // hit = false;
             if (c > max)
                 max = c;}
         else {

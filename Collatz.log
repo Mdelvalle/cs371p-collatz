@@ -1,3 +1,9 @@
+commit 8484ad4233979ad9172549562d4723d2dd70ab78
+Author: miguel del valle <delvalle@cs.utexas.edu>
+Date:   Thu Sep 12 13:37:03 2013 -0500
+
+    Made the evaluation more efficient
+
 commit bfe4ea1ce70122bedcc1b669ff00d3b9b411d1cd
 Author: miguel del valle <delvalle@cs.utexas.edu>
 Date:   Wed Sep 11 18:01:04 2013 -0500

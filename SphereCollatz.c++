@@ -107,7 +107,6 @@ int collatz_eval (int i, int j) {
     // <your code>
     int max = 0;
     int c, n, temp;
-    //int cache[1000000] = {0};
     bool hit;
 
     assert(i > 0);

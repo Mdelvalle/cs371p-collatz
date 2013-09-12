@@ -3,9 +3,9 @@ Running main() from gtest_main.cc
 [----------] Global test environment set-up.
 [----------] 19 tests from Collatz
 [ RUN      ] Collatz.read
-[       OK ] Collatz.read (18 ms)
+[       OK ] Collatz.read (17 ms)
 [ RUN      ] Collatz.read_1
-[       OK ] Collatz.read_1 (4 ms)
+[       OK ] Collatz.read_1 (3 ms)
 [ RUN      ] Collatz.read_2
 [       OK ] Collatz.read_2 (3 ms)
 [ RUN      ] Collatz.read_3
@@ -13,19 +13,19 @@ Running main() from gtest_main.cc
 [ RUN      ] Collatz.eval_1
 [       OK ] Collatz.eval_1 (3 ms)
 [ RUN      ] Collatz.eval_2
-[       OK ] Collatz.eval_2 (1 ms)
+[       OK ] Collatz.eval_2 (2 ms)
 [ RUN      ] Collatz.eval_3
 [       OK ] Collatz.eval_3 (1 ms)
 [ RUN      ] Collatz.eval_4
-[       OK ] Collatz.eval_4 (2 ms)
+[       OK ] Collatz.eval_4 (1 ms)
 [ RUN      ] Collatz.eval_5
-[       OK ] Collatz.eval_5 (128 ms)
+[       OK ] Collatz.eval_5 (111 ms)
 [ RUN      ] Collatz.eval_6
-[       OK ] Collatz.eval_6 (810 ms)
+[       OK ] Collatz.eval_6 (703 ms)
 [ RUN      ] Collatz.eval_7
 [       OK ] Collatz.eval_7 (7 ms)
 [ RUN      ] Collatz.print
-[       OK ] Collatz.print (10 ms)
+[       OK ] Collatz.print (9 ms)
 [ RUN      ] Collatz.print_1
 [       OK ] Collatz.print_1 (2 ms)
 [ RUN      ] Collatz.print_2
@@ -33,15 +33,15 @@ Running main() from gtest_main.cc
 [ RUN      ] Collatz.print_3
 [       OK ] Collatz.print_3 (2 ms)
 [ RUN      ] Collatz.solve
-[       OK ] Collatz.solve (4 ms)
+[       OK ] Collatz.solve (3 ms)
 [ RUN      ] Collatz.solve_1
-[       OK ] Collatz.solve_1 (1837 ms)
+[       OK ] Collatz.solve_1 (1583 ms)
 [ RUN      ] Collatz.solve_2
-[       OK ] Collatz.solve_2 (24 ms)
+[       OK ] Collatz.solve_2 (22 ms)
 [ RUN      ] Collatz.solve_3
-[       OK ] Collatz.solve_3 (499 ms)
-[----------] 19 tests from Collatz (3374 ms total)
+[       OK ] Collatz.solve_3 (434 ms)
+[----------] 19 tests from Collatz (2925 ms total)
 
 [----------] Global test environment tear-down
-[==========] 19 tests from 1 test case ran. (3402 ms total)
+[==========] 19 tests from 1 test case ran. (2951 ms total)
 [  PASSED  ] 19 tests.

@@ -35,11 +35,13 @@ int collatz_eval (int i, int j) {
     // <your code>
     int max = 0;
     int c, n, temp;
+    // Needed a boolean to act as a cache-hit flag
     bool hit;
 
     assert(i > 0);
     assert(j > 0);
 
+    // Need to make sure i is less than j for algorithm to work properly
     if (i > j) {
         temp = i;
         i = j;
@@ -63,7 +65,9 @@ int collatz_eval (int i, int j) {
                     c++;}
                 c++;}
 
+            assert(c > 0);
             cache[i] = c;
+            
             if (c > max)
                 max = c;}
         else {
